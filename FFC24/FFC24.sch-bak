@@ -54,8 +54,6 @@ Text GLabel 11500 5050 0    50   BiDi ~ 0
 SDA2
 Text GLabel 11500 5150 0    50   BiDi ~ 0
 SCL2
-Text GLabel 11500 5250 0    50   BiDi ~ 0
-BURN
 Text GLabel 11500 5350 0    50   BiDi ~ 0
 3V3
 Text GLabel 11500 5450 0    50   BiDi ~ 0
@@ -71,9 +69,9 @@ BATT_P
 Text GLabel 9650 9050 0    50   BiDi ~ 0
 BATT_N
 Text GLabel 9650 6850 0    50   BiDi ~ 0
-SDA
+SCL2
 Text GLabel 9650 6950 0    50   BiDi ~ 0
-SCL
+SDA2
 Text GLabel 9650 7450 0    50   BiDi ~ 0
 BURN1
 Text GLabel 9650 7950 0    50   BiDi ~ 0
@@ -85,9 +83,9 @@ COIL6_N
 Text GLabel 9650 7050 0    50   BiDi ~ 0
 COIL6_P
 Text GLabel 9650 7650 0    50   BiDi ~ 0
-SDA
+SDA1
 Text GLabel 9650 7750 0    50   BiDi ~ 0
-SCL
+SCL1
 Text GLabel 9650 8350 0    50   BiDi ~ 0
 COIL4_N
 Text GLabel 9650 8250 0    50   BiDi ~ 0
@@ -142,8 +140,6 @@ Text GLabel 11900 11000 2    50   BiDi ~ 0
 SDA2
 Text GLabel 11900 11100 2    50   BiDi ~ 0
 SCL2
-Text GLabel 11900 11200 2    50   BiDi ~ 0
-BURN
 Text GLabel 11900 11300 2    50   BiDi ~ 0
 3V3
 Text GLabel 11900 11400 2    50   BiDi ~ 0
@@ -182,8 +178,6 @@ Text GLabel 13300 8000 2    50   BiDi ~ 0
 SDA2
 Text GLabel 13300 7900 2    50   BiDi ~ 0
 SCL2
-Text GLabel 13300 7800 2    50   BiDi ~ 0
-BURN
 Text GLabel 13300 7700 2    50   BiDi ~ 0
 3V3
 Text GLabel 13300 7600 2    50   BiDi ~ 0
@@ -222,8 +216,6 @@ Text GLabel 6850 8250 3    50   BiDi ~ 0
 SDA2
 Text GLabel 6750 8250 3    50   BiDi ~ 0
 SCL2
-Text GLabel 6650 8250 3    50   BiDi ~ 0
-BURN
 Text GLabel 6550 8250 3    50   BiDi ~ 0
 3V3
 Text GLabel 6450 8250 3    50   BiDi ~ 0
@@ -262,8 +254,6 @@ Text GLabel 7850 11200 1    50   BiDi ~ 0
 SDA2
 Text GLabel 7950 11200 1    50   BiDi ~ 0
 SCL2
-Text GLabel 8050 11200 1    50   BiDi ~ 0
-BURN
 Text GLabel 8150 11200 1    50   BiDi ~ 0
 3V3
 Text GLabel 8250 11200 1    50   BiDi ~ 0
@@ -350,4 +340,10 @@ Wire Notes Line
 	17400 3700 17400 5450
 Text GLabel 8550 11200 1    50   BiDi ~ 0
 COIL6_P
+Text GLabel 6650 8250 3    50   BiDi ~ 0
+BURN
+NoConn ~ 11500 5250
+NoConn ~ 13300 7800
+NoConn ~ 11900 11200
+NoConn ~ 8050 11200
 $EndSCHEMATC
