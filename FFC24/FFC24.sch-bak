@@ -346,4 +346,52 @@ NoConn ~ 11500 5250
 NoConn ~ 13300 7800
 NoConn ~ 11900 11200
 NoConn ~ 8050 11200
+Text GLabel 8700 9150 2    50   BiDi ~ 0
+BATT_P
+Text GLabel 8700 9050 2    50   BiDi ~ 0
+BATT_N
+Text GLabel 8700 6850 2    50   BiDi ~ 0
+SCL2
+Text GLabel 8700 6950 2    50   BiDi ~ 0
+SDA2
+Text GLabel 8700 7450 2    50   BiDi ~ 0
+BURN1
+Text GLabel 8700 7950 2    50   BiDi ~ 0
+3V3
+Text GLabel 8700 8150 2    50   BiDi ~ 0
+GND
+Text GLabel 8700 7150 2    50   BiDi ~ 0
+COIL6_N
+Text GLabel 8700 7050 2    50   BiDi ~ 0
+COIL6_P
+Text GLabel 8700 7650 2    50   BiDi ~ 0
+SDA1
+Text GLabel 8700 7750 2    50   BiDi ~ 0
+SCL1
+Text GLabel 8700 8350 2    50   BiDi ~ 0
+COIL4_N
+Text GLabel 8700 8250 2    50   BiDi ~ 0
+COIL4_P
+Text GLabel 8700 7350 2    50   BiDi ~ 0
+COIL5_N
+Text GLabel 8700 7250 2    50   BiDi ~ 0
+COIL5_P
+Text GLabel 8700 7550 2    50   BiDi ~ 0
+BURN2
+Text GLabel 8700 8050 2    50   BiDi ~ 0
+3V3
+Text GLabel 8700 8450 2    50   BiDi ~ 0
+COIL3_N
+Text GLabel 8700 8550 2    50   BiDi ~ 0
+COIL3_P
+Text GLabel 8700 8650 2    50   BiDi ~ 0
+COIL2_P
+Text GLabel 8700 8750 2    50   BiDi ~ 0
+COIL2_N
+Text GLabel 8700 8850 2    50   BiDi ~ 0
+COIL1_N
+Text GLabel 8700 8950 2    50   BiDi ~ 0
+COIL1_P
+Text GLabel 8700 7850 2    50   BiDi ~ 0
+BATT_STAT
 $EndSCHEMATC
