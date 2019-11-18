@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:FFC24-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -314,30 +313,6 @@ Text Notes 5450 8000 0    200  ~ 40
 -Z
 Text Notes 15300 7350 0    200  ~ 40
 +Z
-Wire Notes Line
-	15350 4050 16600 4800
-Wire Notes Line
-	16600 4800 18600 4450
-Wire Notes Line
-	15400 4050 17400 3700
-Wire Notes Line
-	17400 3700 18650 4450
-Wire Notes Line
-	15350 5800 16600 6550
-Wire Notes Line
-	16600 6550 18600 6200
-Wire Notes Line
-	15400 5800 17400 5450
-Wire Notes Line
-	17400 5450 18650 6200
-Wire Notes Line
-	15350 4050 15350 5800
-Wire Notes Line
-	16600 4800 16600 6550
-Wire Notes Line
-	18600 4450 18600 6200
-Wire Notes Line
-	17400 3700 17400 5450
 Text GLabel 8550 11200 1    50   BiDi ~ 0
 COIL6_P
 Text GLabel 6650 8250 3    50   BiDi ~ 0

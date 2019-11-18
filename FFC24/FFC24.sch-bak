@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J5
 U 1 1 5DBA53E7
 P 11850 4750
-F 0 "J?" H 11933 4915 50  0000 C CNN
+F 0 "J5" H 11933 4915 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 11933 4824 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 11450 3250 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 11450 3150 50  0001 L CNN
@@ -35,10 +35,10 @@ F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/706678
 	-1   0    0    -1  
 $EndComp
 $Comp
-L symbols:xf2m-2415-1a-mod J?
+L symbols:xf2m-2415-1a-mod J3
 U 1 1 5DBA5DA6
 P 10100 6900
-F 0 "J?" H 10183 7215 50  0000 C CNN
+F 0 "J3" H 10183 7215 50  0000 C CNN
 F 1 "xf2m-2415-1a-mod" H 10183 7124 50  0000 C CNN
 F 2 "XF2M-2415-1A" H 9750 7150 50  0001 L CNN
 F 3 "http://docs-emea.rs-online.com/webdocs/0fd2/0900766b80fd28a0.pdf" H 8700 4450 50  0001 L CNN
@@ -113,10 +113,10 @@ COIL1_P
 Text GLabel 9650 7850 0    50   BiDi ~ 0
 BATT_STAT
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J4
 U 1 1 5DBAA7D7
 P 11550 10700
-F 0 "J?" H 11633 10865 50  0000 C CNN
+F 0 "J4" H 11633 10865 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 11633 10774 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 11150 9200 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 11150 9100 50  0001 L CNN
@@ -137,9 +137,9 @@ BATT_P
 Text GLabel 11900 10900 2    50   BiDi ~ 0
 BATT_N
 Text GLabel 11900 11000 2    50   BiDi ~ 0
-SDA2
+SDA1
 Text GLabel 11900 11100 2    50   BiDi ~ 0
-SCL2
+SCL1
 Text GLabel 11900 11300 2    50   BiDi ~ 0
 3V3
 Text GLabel 11900 11400 2    50   BiDi ~ 0
@@ -151,10 +151,10 @@ COIL4_N
 Text GLabel 11900 11700 2    50   BiDi ~ 0
 COIL4_P
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J6
 U 1 1 5DBADAEA
 P 12950 8300
-F 0 "J?" H 13033 8465 50  0000 C CNN
+F 0 "J6" H 13033 8465 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 13033 8374 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 12550 6800 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 12550 6700 50  0001 L CNN
@@ -189,10 +189,10 @@ COIL5_N
 Text GLabel 13300 7300 2    50   BiDi ~ 0
 COIL5_P
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J1
 U 1 1 5DBADB03
 P 7150 7900
-F 0 "J?" H 7233 8065 50  0000 C CNN
+F 0 "J1" H 7233 8065 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 7233 7974 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 6750 6400 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 6750 6300 50  0001 L CNN
@@ -227,10 +227,10 @@ COIL2_N
 Text GLabel 6150 8250 3    50   BiDi ~ 0
 COIL2_P
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J2
 U 1 1 5DBAEFA0
 P 7550 11550
-F 0 "J?" H 7633 11715 50  0000 C CNN
+F 0 "J2" H 7633 11715 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 7633 11624 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 7150 10050 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 7150 9950 50  0001 L CNN
@@ -263,10 +263,10 @@ GND
 Text GLabel 8450 11200 1    50   BiDi ~ 0
 COIL6_N
 $Comp
-L symbols:XF2M-1015-1A-mod J?
+L symbols:XF2M-1015-1A-mod J7
 U 1 1 5DBAEFB9
 P 15050 8150
-F 0 "J?" H 15133 8315 50  0000 C CNN
+F 0 "J7" H 15133 8315 50  0000 C CNN
 F 1 "XF2M-1015-1A-mod" H 15133 8224 50  0000 C CNN
 F 2 "XF2M-1015-1A" H 14650 6650 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 14650 6550 50  0001 L CNN
