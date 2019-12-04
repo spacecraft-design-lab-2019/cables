@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:FFC24-cache
 EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
@@ -174,9 +175,9 @@ BATT_P
 Text GLabel 13300 8100 2    50   BiDi ~ 0
 BATT_N
 Text GLabel 13300 8000 2    50   BiDi ~ 0
-SDA2
+SDA1
 Text GLabel 13300 7900 2    50   BiDi ~ 0
-SCL2
+SCL1
 Text GLabel 13300 7700 2    50   BiDi ~ 0
 3V3
 Text GLabel 13300 7600 2    50   BiDi ~ 0
@@ -286,11 +287,11 @@ BATT_P
 Text GLabel 15250 7800 1    50   BiDi ~ 0
 BATT_N
 Text GLabel 15350 7800 1    50   BiDi ~ 0
-SDA2
+SDA1
 Text GLabel 15450 7800 1    50   BiDi ~ 0
-SCL2
-Text GLabel 15550 7800 1    50   BiDi ~ 0
-BURN
+SCL1
+Text GLabel 13300 7800 2    50   BiDi ~ 0
+BURN1
 Text GLabel 15650 7800 1    50   BiDi ~ 0
 3V3
 Text GLabel 15750 7800 1    50   BiDi ~ 0
@@ -315,10 +316,7 @@ Text Notes 15300 7350 0    200  ~ 40
 +Z
 Text GLabel 8550 11200 1    50   BiDi ~ 0
 COIL6_P
-Text GLabel 6650 8250 3    50   BiDi ~ 0
-BURN
 NoConn ~ 11500 5250
-NoConn ~ 13300 7800
 NoConn ~ 11900 11200
 NoConn ~ 8050 11200
 Text GLabel 8700 9150 2    50   BiDi ~ 0
@@ -369,4 +367,8 @@ Text GLabel 8700 8950 2    50   BiDi ~ 0
 COIL1_P
 Text GLabel 8700 7850 2    50   BiDi ~ 0
 BATT_STAT
+NoConn ~ 15550 7800
+NoConn ~ 6650 8250
+Text GLabel 8250 9650 0    50   BiDi ~ 0
+GND
 $EndSCHEMATC

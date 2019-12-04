@@ -290,8 +290,8 @@ Text GLabel 15350 7800 1    50   BiDi ~ 0
 SDA2
 Text GLabel 15450 7800 1    50   BiDi ~ 0
 SCL2
-Text GLabel 15550 7800 1    50   BiDi ~ 0
-BURN
+Text GLabel 13300 7800 2    50   BiDi ~ 0
+BURN1
 Text GLabel 15650 7800 1    50   BiDi ~ 0
 3V3
 Text GLabel 15750 7800 1    50   BiDi ~ 0
@@ -314,36 +314,9 @@ Text Notes 5450 8000 0    200  ~ 40
 -Z
 Text Notes 15300 7350 0    200  ~ 40
 +Z
-Wire Notes Line
-	15350 4050 16600 4800
-Wire Notes Line
-	16600 4800 18600 4450
-Wire Notes Line
-	15400 4050 17400 3700
-Wire Notes Line
-	17400 3700 18650 4450
-Wire Notes Line
-	15350 5800 16600 6550
-Wire Notes Line
-	16600 6550 18600 6200
-Wire Notes Line
-	15400 5800 17400 5450
-Wire Notes Line
-	17400 5450 18650 6200
-Wire Notes Line
-	15350 4050 15350 5800
-Wire Notes Line
-	16600 4800 16600 6550
-Wire Notes Line
-	18600 4450 18600 6200
-Wire Notes Line
-	17400 3700 17400 5450
 Text GLabel 8550 11200 1    50   BiDi ~ 0
 COIL6_P
-Text GLabel 6650 8250 3    50   BiDi ~ 0
-BURN
 NoConn ~ 11500 5250
-NoConn ~ 13300 7800
 NoConn ~ 11900 11200
 NoConn ~ 8050 11200
 Text GLabel 8700 9150 2    50   BiDi ~ 0
@@ -394,4 +367,6 @@ Text GLabel 8700 8950 2    50   BiDi ~ 0
 COIL1_P
 Text GLabel 8700 7850 2    50   BiDi ~ 0
 BATT_STAT
+NoConn ~ 15550 7800
+NoConn ~ 6650 8250
 $EndSCHEMATC
