@@ -1,8 +1,7 @@
 EESchema Schematic File Version 4
-LIBS:FFC24-cache
 EELAYER 30 0
 EELAYER END
-$Descr C 22000 17000
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -17,358 +16,308 @@ $EndDescr
 $Comp
 L symbols:XF2M-1015-1A-mod J5
 U 1 1 5DBA53E7
-P 11850 4750
-F 0 "J5" H 11933 4915 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 11933 4824 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 11450 3250 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 11450 3150 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 11450 3050 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 11450 2850 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 11450 2750 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 11450 2650 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 11450 2550 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 11450 2450 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 11450 2350 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 11450 2250 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 11450 2150 50  0001 L CNN "Allied Price/Stock"
-	1    11850 4750
+P 7100 1250
+F 0 "J5" H 7183 1415 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 7183 1324 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 6700 -250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 6700 -350 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 6700 -450 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 6700 -650 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 6700 -750 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 6700 -850 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 6700 -950 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 6700 -1050 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 6700 -1150 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 6700 -1250 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 6700 -1350 50  0001 L CNN "Allied Price/Stock"
+	1    7100 1250
 	-1   0    0    -1  
 $EndComp
 $Comp
 L symbols:xf2m-2415-1a-mod J3
 U 1 1 5DBA5DA6
-P 10100 6900
-F 0 "J3" H 10183 7215 50  0000 C CNN
-F 1 "xf2m-2415-1a-mod" H 10183 7124 50  0000 C CNN
-F 2 "custom-footprints:FFC-24pin" H 9750 7150 50  0001 L CNN
-F 3 "http://docs-emea.rs-online.com/webdocs/0fd2/0900766b80fd28a0.pdf" H 8700 4450 50  0001 L CNN
-F 4 "Omron XF2M Series 0.5mm Pitch 24 Way 1 Row Right Angle SMT Female FPC Connector Locking Mechanism, Gold Plated Contacts" H 8700 4350 50  0001 L CNN "Description"
-	1    10100 6900
+P 5200 2850
+F 0 "J3" H 5283 3165 50  0000 C CNN
+F 1 "xf2m-2415-1a-mod" H 5283 3074 50  0000 C CNN
+F 2 "custom-footprints:FFC-24pin" H 4850 3100 50  0001 L CNN
+F 3 "http://docs-emea.rs-online.com/webdocs/0fd2/0900766b80fd28a0.pdf" H 3800 400 50  0001 L CNN
+F 4 "Omron XF2M Series 0.5mm Pitch 24 Way 1 Row Right Angle SMT Female FPC Connector Locking Mechanism, Gold Plated Contacts" H 3800 300 50  0001 L CNN "Description"
+	1    5200 2850
 	-1   0    0    -1  
 $EndComp
-Text GLabel 11500 4850 0    50   BiDi ~ 0
+Text GLabel 6750 1350 0    50   BiDi ~ 0
 BATT_P
-Text GLabel 11500 4950 0    50   BiDi ~ 0
+Text GLabel 6750 1450 0    50   BiDi ~ 0
 BATT_N
-Text GLabel 11500 5050 0    50   BiDi ~ 0
+Text GLabel 6750 1550 0    50   BiDi ~ 0
 SDA2
-Text GLabel 11500 5150 0    50   BiDi ~ 0
+Text GLabel 6750 1650 0    50   BiDi ~ 0
 SCL2
-Text GLabel 11500 5350 0    50   BiDi ~ 0
+Text GLabel 6750 1850 0    50   BiDi ~ 0
 3V3
-Text GLabel 11500 5450 0    50   BiDi ~ 0
+Text GLabel 6750 1950 0    50   BiDi ~ 0
 GND
-Text GLabel 11500 5550 0    50   BiDi ~ 0
+Text GLabel 6750 2050 0    50   BiDi ~ 0
 GND
-Text GLabel 11500 5650 0    50   BiDi ~ 0
+Text GLabel 6750 2150 0    50   BiDi ~ 0
 COIL3_N
-Text GLabel 11500 5750 0    50   BiDi ~ 0
+Text GLabel 6750 2250 0    50   BiDi ~ 0
 COIL3_P
-Text GLabel 9650 9150 0    50   BiDi ~ 0
+Text GLabel 4750 5100 0    50   BiDi ~ 0
 BATT_P
-Text GLabel 9650 9050 0    50   BiDi ~ 0
+Text GLabel 4750 5000 0    50   BiDi ~ 0
 BATT_N
-Text GLabel 9650 6850 0    50   BiDi ~ 0
+Text GLabel 4750 2800 0    50   BiDi ~ 0
 SCL2
-Text GLabel 9650 6950 0    50   BiDi ~ 0
+Text GLabel 4750 2900 0    50   BiDi ~ 0
 SDA2
-Text GLabel 9650 7450 0    50   BiDi ~ 0
+Text GLabel 4750 3400 0    50   BiDi ~ 0
 BURN1
-Text GLabel 9650 7950 0    50   BiDi ~ 0
+Text GLabel 4750 3900 0    50   BiDi ~ 0
 3V3
-Text GLabel 9650 8150 0    50   BiDi ~ 0
+Text GLabel 4750 4100 0    50   BiDi ~ 0
 GND
-Text GLabel 9650 7150 0    50   BiDi ~ 0
+Text GLabel 4750 3100 0    50   BiDi ~ 0
 COIL6_N
-Text GLabel 9650 7050 0    50   BiDi ~ 0
+Text GLabel 4750 3000 0    50   BiDi ~ 0
 COIL6_P
-Text GLabel 9650 7650 0    50   BiDi ~ 0
+Text GLabel 4750 3600 0    50   BiDi ~ 0
 SDA1
-Text GLabel 9650 7750 0    50   BiDi ~ 0
+Text GLabel 4750 3700 0    50   BiDi ~ 0
 SCL1
-Text GLabel 9650 8350 0    50   BiDi ~ 0
+Text GLabel 4750 4300 0    50   BiDi ~ 0
 COIL4_N
-Text GLabel 9650 8250 0    50   BiDi ~ 0
+Text GLabel 4750 4200 0    50   BiDi ~ 0
 COIL4_P
-Text GLabel 9650 7350 0    50   BiDi ~ 0
+Text GLabel 4750 3300 0    50   BiDi ~ 0
 COIL5_N
-Text GLabel 9650 7250 0    50   BiDi ~ 0
+Text GLabel 4750 3200 0    50   BiDi ~ 0
 COIL5_P
-Text GLabel 9650 7550 0    50   BiDi ~ 0
+Text GLabel 4750 3500 0    50   BiDi ~ 0
 BURN2
-Text GLabel 9650 8050 0    50   BiDi ~ 0
+Text GLabel 4750 4000 0    50   BiDi ~ 0
 3V3
-Text GLabel 9650 8450 0    50   BiDi ~ 0
+Text GLabel 4750 4400 0    50   BiDi ~ 0
 COIL3_N
-Text GLabel 9650 8550 0    50   BiDi ~ 0
+Text GLabel 4750 4500 0    50   BiDi ~ 0
 COIL3_P
-Text GLabel 9650 8650 0    50   BiDi ~ 0
+Text GLabel 4750 4600 0    50   BiDi ~ 0
 COIL2_P
-Text GLabel 9650 8750 0    50   BiDi ~ 0
+Text GLabel 4750 4700 0    50   BiDi ~ 0
 COIL2_N
-Text GLabel 9650 8850 0    50   BiDi ~ 0
+Text GLabel 4750 4800 0    50   BiDi ~ 0
 COIL1_N
-Text GLabel 9650 8950 0    50   BiDi ~ 0
+Text GLabel 4750 4900 0    50   BiDi ~ 0
 COIL1_P
-Text GLabel 9650 7850 0    50   BiDi ~ 0
+Text GLabel 4750 3800 0    50   BiDi ~ 0
 BATT_STAT
 $Comp
 L symbols:XF2M-1015-1A-mod J4
 U 1 1 5DBAA7D7
-P 11550 10700
-F 0 "J4" H 11633 10865 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 11633 10774 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 11150 9200 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 11150 9100 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 11150 9000 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 11150 8800 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 11150 8700 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 11150 8600 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 11150 8500 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 11150 8400 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 11150 8300 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 11150 8200 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 11150 8100 50  0001 L CNN "Allied Price/Stock"
-	1    11550 10700
+P 5050 6350
+F 0 "J4" H 5133 6515 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 5133 6424 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 4650 4850 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 4650 4750 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 4650 4650 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 4650 4450 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 4650 4350 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 4650 4250 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 4650 4150 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 4650 4050 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 4650 3950 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 4650 3850 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 4650 3750 50  0001 L CNN "Allied Price/Stock"
+	1    5050 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 11900 10800 2    50   BiDi ~ 0
+Text GLabel 5400 6450 2    50   BiDi ~ 0
 BATT_P
-Text GLabel 11900 10900 2    50   BiDi ~ 0
+Text GLabel 5400 6550 2    50   BiDi ~ 0
 BATT_N
-Text GLabel 11900 11000 2    50   BiDi ~ 0
+Text GLabel 5400 6650 2    50   BiDi ~ 0
 SDA1
-Text GLabel 11900 11100 2    50   BiDi ~ 0
+Text GLabel 5400 6750 2    50   BiDi ~ 0
 SCL1
-Text GLabel 11900 11300 2    50   BiDi ~ 0
+Text GLabel 5400 6950 2    50   BiDi ~ 0
 3V3
-Text GLabel 11900 11400 2    50   BiDi ~ 0
+Text GLabel 5400 7050 2    50   BiDi ~ 0
 GND
-Text GLabel 11900 11500 2    50   BiDi ~ 0
+Text GLabel 5400 7150 2    50   BiDi ~ 0
 GND
-Text GLabel 11900 11600 2    50   BiDi ~ 0
+Text GLabel 5400 7250 2    50   BiDi ~ 0
 COIL4_N
-Text GLabel 11900 11700 2    50   BiDi ~ 0
+Text GLabel 5400 7350 2    50   BiDi ~ 0
 COIL4_P
 $Comp
 L symbols:XF2M-1015-1A-mod J6
 U 1 1 5DBADAEA
-P 12950 8300
-F 0 "J6" H 13033 8465 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 13033 8374 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 12550 6800 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 12550 6700 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 12550 6600 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 12550 6400 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 12550 6300 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 12550 6200 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 12550 6100 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 12550 6000 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 12550 5900 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 12550 5800 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 12550 5700 50  0001 L CNN "Allied Price/Stock"
-	1    12950 8300
+P 7200 4400
+F 0 "J6" H 7283 4565 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 7283 4474 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 6800 2900 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 6800 2800 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 6800 2700 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 6800 2500 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 6800 2400 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 6800 2300 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 6800 2200 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 6800 2100 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 6800 2000 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 6800 1900 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 6800 1800 50  0001 L CNN "Allied Price/Stock"
+	1    7200 4400
 	1    0    0    1   
 $EndComp
-Text GLabel 13300 8200 2    50   BiDi ~ 0
+Text GLabel 7550 4300 2    50   BiDi ~ 0
 BATT_P
-Text GLabel 13300 8100 2    50   BiDi ~ 0
+Text GLabel 7550 4200 2    50   BiDi ~ 0
 BATT_N
-Text GLabel 13300 8000 2    50   BiDi ~ 0
+Text GLabel 7550 4100 2    50   BiDi ~ 0
 SDA1
-Text GLabel 13300 7900 2    50   BiDi ~ 0
+Text GLabel 7550 4000 2    50   BiDi ~ 0
 SCL1
-Text GLabel 13300 7700 2    50   BiDi ~ 0
+Text GLabel 7550 3800 2    50   BiDi ~ 0
 3V3
-Text GLabel 13300 7600 2    50   BiDi ~ 0
+Text GLabel 7550 3700 2    50   BiDi ~ 0
 GND
-Text GLabel 13300 7500 2    50   BiDi ~ 0
+Text GLabel 7550 3600 2    50   BiDi ~ 0
 GND
-Text GLabel 13300 7400 2    50   BiDi ~ 0
+Text GLabel 7550 3500 2    50   BiDi ~ 0
 COIL5_N
-Text GLabel 13300 7300 2    50   BiDi ~ 0
+Text GLabel 7550 3400 2    50   BiDi ~ 0
 COIL5_P
 $Comp
 L symbols:XF2M-1015-1A-mod J1
 U 1 1 5DBADB03
-P 7150 7900
-F 0 "J1" H 7233 8065 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 7233 7974 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 6750 6400 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 6750 6300 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 6750 6200 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 6750 6000 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 6750 5900 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 6750 5800 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 6750 5700 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 6750 5600 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 6750 5500 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 6750 5400 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 6750 5300 50  0001 L CNN "Allied Price/Stock"
-	1    7150 7900
+P 2250 3850
+F 0 "J1" H 2333 4015 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 2333 3924 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 1850 2350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 1850 2250 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 1850 2150 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 1850 1950 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 1850 1850 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 1850 1750 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 1850 1650 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 1850 1550 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 1850 1450 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 1850 1350 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 1850 1250 50  0001 L CNN "Allied Price/Stock"
+	1    2250 3850
 	0    1    1    0   
 $EndComp
-Text GLabel 7050 8250 3    50   BiDi ~ 0
+Text GLabel 2150 4200 3    50   BiDi ~ 0
 BATT_P
-Text GLabel 6950 8250 3    50   BiDi ~ 0
+Text GLabel 2050 4200 3    50   BiDi ~ 0
 BATT_N
-Text GLabel 6850 8250 3    50   BiDi ~ 0
+Text GLabel 1950 4200 3    50   BiDi ~ 0
 SDA2
-Text GLabel 6750 8250 3    50   BiDi ~ 0
+Text GLabel 1850 4200 3    50   BiDi ~ 0
 SCL2
-Text GLabel 6550 8250 3    50   BiDi ~ 0
+Text GLabel 1650 4200 3    50   BiDi ~ 0
 3V3
-Text GLabel 6450 8250 3    50   BiDi ~ 0
+Text GLabel 1550 4200 3    50   BiDi ~ 0
 GND
-Text GLabel 6350 8250 3    50   BiDi ~ 0
+Text GLabel 1450 4200 3    50   BiDi ~ 0
 GND
-Text GLabel 6250 8250 3    50   BiDi ~ 0
+Text GLabel 1350 4200 3    50   BiDi ~ 0
 COIL2_N
-Text GLabel 6150 8250 3    50   BiDi ~ 0
+Text GLabel 1250 4200 3    50   BiDi ~ 0
 COIL2_P
 $Comp
 L symbols:XF2M-1015-1A-mod J2
 U 1 1 5DBAEFA0
-P 7550 11550
-F 0 "J2" H 7633 11715 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 7633 11624 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 7150 10050 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 7150 9950 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 7150 9850 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 7150 9650 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 7150 9550 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 7150 9450 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 7150 9350 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 7150 9250 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 7150 9150 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 7150 9050 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 7150 8950 50  0001 L CNN "Allied Price/Stock"
-	1    7550 11550
+P 2250 6800
+F 0 "J2" H 2333 6965 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 2333 6874 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 1850 5300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 1850 5200 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 1850 5100 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 1850 4900 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 1850 4800 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 1850 4700 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 1850 4600 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 1850 4500 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 1850 4400 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 1850 4300 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 1850 4200 50  0001 L CNN "Allied Price/Stock"
+	1    2250 6800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7650 11200 1    50   BiDi ~ 0
+Text GLabel 2350 6450 1    50   BiDi ~ 0
 BATT_P
-Text GLabel 7750 11200 1    50   BiDi ~ 0
+Text GLabel 2450 6450 1    50   BiDi ~ 0
 BATT_N
-Text GLabel 7850 11200 1    50   BiDi ~ 0
+Text GLabel 2550 6450 1    50   BiDi ~ 0
 SDA2
-Text GLabel 7950 11200 1    50   BiDi ~ 0
+Text GLabel 2650 6450 1    50   BiDi ~ 0
 SCL2
-Text GLabel 8150 11200 1    50   BiDi ~ 0
+Text GLabel 2850 6450 1    50   BiDi ~ 0
 3V3
-Text GLabel 8250 11200 1    50   BiDi ~ 0
+Text GLabel 2950 6450 1    50   BiDi ~ 0
 GND
-Text GLabel 8350 11200 1    50   BiDi ~ 0
+Text GLabel 3050 6450 1    50   BiDi ~ 0
 GND
-Text GLabel 8450 11200 1    50   BiDi ~ 0
+Text GLabel 3150 6450 1    50   BiDi ~ 0
 COIL6_N
 $Comp
 L symbols:XF2M-1015-1A-mod J7
 U 1 1 5DBAEFB9
-P 15050 8150
-F 0 "J7" H 15133 8315 50  0000 C CNN
-F 1 "XF2M-1015-1A-mod" H 15133 8224 50  0000 C CNN
-F 2 "custom-footprints:FFC-10pin" H 14650 6650 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 14650 6550 50  0001 L CNN
-F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 14650 6450 50  0001 L CNN "Description"
-F 5 "Omron Electronics" H 14650 6250 50  0001 L CNN "Manufacturer_Name"
-F 6 "XF2M-1015-1A" H 14650 6150 50  0001 L CNN "Manufacturer_Part_Number"
-F 7 "653-XF2M-1015-1A" H 14650 6050 50  0001 L CNN "Mouser Part Number"
-F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 14650 5950 50  0001 L CNN "Mouser Price/Stock"
-F 9 "7315772P" H 14650 5850 50  0001 L CNN "RS Part Number"
-F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 14650 5750 50  0001 L CNN "RS Price/Stock"
-F 11 "70667825" H 14650 5650 50  0001 L CNN "Allied_Number"
-F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 14650 5550 50  0001 L CNN "Allied Price/Stock"
-	1    15050 8150
+P 9250 4050
+F 0 "J7" H 9333 4215 50  0000 C CNN
+F 1 "XF2M-1015-1A-mod" H 9333 4124 50  0000 C CNN
+F 2 "custom-footprints:FFC-10pin" H 8850 2550 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/3/XF2M-1015-1A.pdf" H 8850 2450 50  0001 L CNN
+F 4 "0.5mm Rotary backlock 10 way Omron XF2M Series 0.5mm Pitch 10 Way Right Angle SMT Female FPC Connector Locking Mechanism, Top and Bottom Contact" H 8850 2350 50  0001 L CNN "Description"
+F 5 "Omron Electronics" H 8850 2150 50  0001 L CNN "Manufacturer_Name"
+F 6 "XF2M-1015-1A" H 8850 2050 50  0001 L CNN "Manufacturer_Part_Number"
+F 7 "653-XF2M-1015-1A" H 8850 1950 50  0001 L CNN "Mouser Part Number"
+F 8 "https://www.mouser.com/Search/Refine.aspx?Keyword=653-XF2M-1015-1A" H 8850 1850 50  0001 L CNN "Mouser Price/Stock"
+F 9 "7315772P" H 8850 1750 50  0001 L CNN "RS Part Number"
+F 10 "http://uk.rs-online.com/web/p/products/7315772P" H 8850 1650 50  0001 L CNN "RS Price/Stock"
+F 11 "70667825" H 8850 1550 50  0001 L CNN "Allied_Number"
+F 12 "https://www.alliedelec.com/omron-electronic-components-xf2m-1015-1a/70667825/" H 8850 1450 50  0001 L CNN "Allied Price/Stock"
+	1    9250 4050
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15150 7800 1    50   BiDi ~ 0
+Text GLabel 9350 3700 1    50   BiDi ~ 0
 BATT_P
-Text GLabel 15250 7800 1    50   BiDi ~ 0
+Text GLabel 9450 3700 1    50   BiDi ~ 0
 BATT_N
-Text GLabel 15350 7800 1    50   BiDi ~ 0
+Text GLabel 9550 3700 1    50   BiDi ~ 0
 SDA1
-Text GLabel 15450 7800 1    50   BiDi ~ 0
+Text GLabel 9650 3700 1    50   BiDi ~ 0
 SCL1
-Text GLabel 13300 7800 2    50   BiDi ~ 0
+Text GLabel 7550 3900 2    50   BiDi ~ 0
 BURN1
-Text GLabel 15650 7800 1    50   BiDi ~ 0
+Text GLabel 9850 3700 1    50   BiDi ~ 0
 3V3
-Text GLabel 15750 7800 1    50   BiDi ~ 0
+Text GLabel 9950 3700 1    50   BiDi ~ 0
 GND
-Text GLabel 15850 7800 1    50   BiDi ~ 0
+Text GLabel 10050 3700 1    50   BiDi ~ 0
 GND
-Text GLabel 15950 7800 1    50   BiDi ~ 0
+Text GLabel 10150 3700 1    50   BiDi ~ 0
 COIL1_N
-Text GLabel 16050 7800 1    50   BiDi ~ 0
+Text GLabel 10250 3700 1    50   BiDi ~ 0
 COIL1_P
-Text Notes 11450 12200 0    200  ~ 40
+Text Notes 4950 7850 0    200  ~ 40
 -X
-Text Notes 11600 4500 0    200  ~ 40
+Text Notes 6850 1000 0    200  ~ 40
 +X
-Text Notes 7800 12100 0    200  ~ 40
+Text Notes 2500 7350 0    200  ~ 40
 -Y
-Text Notes 12750 7150 0    200  ~ 40
+Text Notes 7000 3250 0    200  ~ 40
 +Y
-Text Notes 5450 8000 0    200  ~ 40
+Text Notes 550  3950 0    200  ~ 40
 -Z
-Text Notes 15300 7350 0    200  ~ 40
+Text Notes 9500 3250 0    200  ~ 40
 +Z
-Text GLabel 8550 11200 1    50   BiDi ~ 0
+Text GLabel 3250 6450 1    50   BiDi ~ 0
 COIL6_P
-NoConn ~ 11500 5250
-NoConn ~ 11900 11200
-NoConn ~ 8050 11200
-Text GLabel 8700 9150 2    50   BiDi ~ 0
-BATT_P
-Text GLabel 8700 9050 2    50   BiDi ~ 0
-BATT_N
-Text GLabel 8700 6850 2    50   BiDi ~ 0
-SCL2
-Text GLabel 8700 6950 2    50   BiDi ~ 0
-SDA2
-Text GLabel 8700 7450 2    50   BiDi ~ 0
-BURN1
-Text GLabel 8700 7950 2    50   BiDi ~ 0
-3V3
-Text GLabel 8700 8150 2    50   BiDi ~ 0
-GND
-Text GLabel 8700 7150 2    50   BiDi ~ 0
-COIL6_N
-Text GLabel 8700 7050 2    50   BiDi ~ 0
-COIL6_P
-Text GLabel 8700 7650 2    50   BiDi ~ 0
-SDA1
-Text GLabel 8700 7750 2    50   BiDi ~ 0
-SCL1
-Text GLabel 8700 8350 2    50   BiDi ~ 0
-COIL4_N
-Text GLabel 8700 8250 2    50   BiDi ~ 0
-COIL4_P
-Text GLabel 8700 7350 2    50   BiDi ~ 0
-COIL5_N
-Text GLabel 8700 7250 2    50   BiDi ~ 0
-COIL5_P
-Text GLabel 8700 7550 2    50   BiDi ~ 0
-BURN2
-Text GLabel 8700 8050 2    50   BiDi ~ 0
-3V3
-Text GLabel 8700 8450 2    50   BiDi ~ 0
-COIL3_N
-Text GLabel 8700 8550 2    50   BiDi ~ 0
-COIL3_P
-Text GLabel 8700 8650 2    50   BiDi ~ 0
-COIL2_P
-Text GLabel 8700 8750 2    50   BiDi ~ 0
-COIL2_N
-Text GLabel 8700 8850 2    50   BiDi ~ 0
-COIL1_N
-Text GLabel 8700 8950 2    50   BiDi ~ 0
-COIL1_P
-Text GLabel 8700 7850 2    50   BiDi ~ 0
-BATT_STAT
-NoConn ~ 15550 7800
-NoConn ~ 6650 8250
-Text GLabel 8250 9650 0    50   BiDi ~ 0
-GND
+NoConn ~ 6750 1750
+NoConn ~ 5400 6850
+NoConn ~ 2750 6450
+NoConn ~ 9750 3700
+NoConn ~ 1750 4200
 $EndSCHEMATC
